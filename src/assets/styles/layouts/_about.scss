@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: $content-width;
+  padding-top: 5em;
+  margin: 0 auto;
+  text-align: center;
+
+  .about__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 2em 0;
+  }
+
+  .card__img {
+    height: 300px;
+    object-fit: cover;
+  }
+}

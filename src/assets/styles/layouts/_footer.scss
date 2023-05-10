@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  height: fit-content;
+  padding: 1em;
+  font-size: $size-md;
+  color: $white;
+  background-color: $primary;
+}
